@@ -1,0 +1,6 @@
+map 2d
+     /material/ui/accessory/lollipop_w.dds
+addr
+     clamp_to_edge
+     clamp_to_edge
+usage ui

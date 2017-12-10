@@ -1,0 +1,6 @@
+map 2d
+     /vehicle/truck/upgrade/smalllight/textures/sidelight2.dds
+addr
+     clamp_to_edge
+     clamp_to_edge
+color_space linear

@@ -1,0 +1,5 @@
+map 2d
+     /model/blender_export/p8_50k_foglight/textures/color.dds
+addr
+     clamp_to_edge
+     clamp_to_edge

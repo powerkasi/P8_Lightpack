@@ -1,0 +1,5 @@
+map 2d
+     /model/blender_export/p8_torpedo/textures/upg_chrome.dds
+addr
+     clamp_to_edge
+     clamp_to_edge

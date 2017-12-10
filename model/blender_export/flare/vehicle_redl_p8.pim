@@ -1,0 +1,72 @@
+Header {
+     FormatVersion: 5
+     Source: "ConverterPIX v1.0"
+     Type: "Model"
+     Name: "vehicle_redl_p8"
+}
+Global {
+     VertexCount: 4
+     TriangleCount: 2
+     MaterialCount: 1
+     PieceCount: 1
+     PartCount: 1
+     BoneCount: 0
+     LocatorCount: 0
+     Skeleton: "vehicle_redl_p8.pis"
+}
+Material {
+     Alias: "mat_0000_p8_led_flare"
+     Effect: "eut2.flare"
+}
+Piece {
+     Index: 0
+     Material: 0
+     VertexCount: 4
+     TriangleCount: 2
+     StreamCount: 4
+     Stream {
+          Format: FLOAT3
+          Tag: "_POSITION"
+          0    ( &bde66666  &bde66666  &00000000 )
+          1    ( &bde66666  &3de66666  &00000000 )
+          2    ( &3de66666  &bde66666  &00000000 )
+          3    ( &3de66666  &3de66666  &00000000 )
+     }
+     Stream {
+          Format: FLOAT3
+          Tag: "_NORMAL"
+          0    ( &80000000  &00000000  &3f800000 )
+          1    ( &80000000  &00000000  &3f800000 )
+          2    ( &80000000  &00000000  &3f800000 )
+          3    ( &80000000  &00000000  &3f800000 )
+     }
+     Stream {
+          Format: FLOAT2
+          Tag: "_UV0"
+          AliasCount: 1
+          Aliases: "_TEXCOORD0" 
+          0    ( &3f286c48  &3ed81844 )
+          1    ( &3f286c48  &3ea8edce )
+          2    ( &3f5796bc  &3ed81844 )
+          3    ( &3f5796bc  &3ea8edce )
+     }
+     Stream {
+          Format: FLOAT4
+          Tag: "_RGBA"
+          0    ( &3f808081  &3f808081  &3f808081  &40000000 )
+          1    ( &3f808081  &3f808081  &3f808081  &40000000 )
+          2    ( &3f808081  &3f808081  &3f808081  &40000000 )
+          3    ( &3f808081  &3f808081  &3f808081  &40000000 )
+     }
+     Triangles {
+          0    ( 0     1     2     )
+          1    ( 1     3     2     )
+     }
+}
+Part {
+     Name: "defaultpart"
+     PieceCount: 1
+     LocatorCount: 0
+     Pieces: 0 
+     Locators: 
+}

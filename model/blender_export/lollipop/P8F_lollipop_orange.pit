@@ -1,0 +1,43 @@
+Header {
+     FormatVersion: 1
+     Source: "ConverterPIX v1.0"
+     Type: "Trait"
+     Name: "P8F_lollipop_orange"
+}
+Global {
+     LookCount: 1
+     VariantCount: 1
+     PartCount: 1
+     MaterialCount: 1
+}
+Look {
+     Name: "default"
+     Material {
+          Alias: "mat_0000_p8_flare"
+          Effect: "eut2.flare"
+          Flags: 0
+          AttributeCount: 1
+          TextureCount: 1
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/lollipop/textures/p8_flare"
+          }
+     }
+}
+Variant {
+     Name: "default"
+     Part {
+          Name: "defaultpart"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+}

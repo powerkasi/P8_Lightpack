@@ -1,0 +1,6 @@
+map 2d
+     /model/blender_export/nbb/textures/nbb_alpha_led_mask.dds
+addr
+     clamp_to_edge
+     clamp_to_edge
+nocompress

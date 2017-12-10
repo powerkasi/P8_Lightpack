@@ -1,0 +1,157 @@
+Header {
+     FormatVersion: 1
+     Source: "ConverterPIX v1.0"
+     Type: "Trait"
+     Name: "sarvivalo_lyvyt2l_v"
+}
+Global {
+     LookCount: 1
+     VariantCount: 1
+     PartCount: 1
+     MaterialCount: 3
+}
+Look {
+     Name: "default"
+     Material {
+          Alias: "mat_0000_longplastic"
+          Effect: "eut2.dif.spec"
+          Flags: 0
+          AttributeCount: 5
+          TextureCount: 1
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 12.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/sarvivalo_lyhyt/textures/longplastic"
+          }
+     }
+     Material {
+          Alias: "mat_0001_sidelight2"
+          Effect: "eut2.lamp.add.env"
+          Flags: 0
+          AttributeCount: 6
+          TextureCount: 3
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.650000 0.650000 0.650000 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 0.200000 0.900000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 90.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 0.700000 0.700000 0.700000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/sarvivalo_lyhyt/textures/sidelight2"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+          Texture {
+               Tag: "texture[2]:texture_mask"
+               Value: "/model/blender_export/sarvivalo_lyhyt/textures/lightmask"
+          }
+     }
+     Material {
+          Alias: "mat_0002_color"
+          Effect: "eut2.dif.spec.add.env.nofresnel"
+          Flags: 0
+          AttributeCount: 6
+          TextureCount: 2
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.735357 0.735357 0.735357 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 12.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/sarvivalo_lyhyt/textures/color"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+}
+Variant {
+     Name: "default"
+     Part {
+          Name: "defaultpart"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+}

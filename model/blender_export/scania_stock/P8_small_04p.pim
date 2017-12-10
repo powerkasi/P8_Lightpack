@@ -1,0 +1,226 @@
+Header {
+     FormatVersion: 5
+     Source: "ConverterPIX v1.0"
+     Type: "Model"
+     Name: "P8_small_04p"
+}
+Global {
+     VertexCount: 24
+     TriangleCount: 38
+     MaterialCount: 1
+     PieceCount: 1
+     PartCount: 1
+     BoneCount: 0
+     LocatorCount: 1
+     Skeleton: "P8_small_04p.pis"
+}
+Material {
+     Alias: "mat_0000_lamps"
+     Effect: "eut2.lamp.add.env"
+}
+Piece {
+     Index: 0
+     Material: 0
+     VertexCount: 24
+     TriangleCount: 38
+     StreamCount: 5
+     Stream {
+          Format: FLOAT3
+          Tag: "_POSITION"
+          0    ( &3cc7f1cf  &bd57416b  &babe6cbc )
+          1    ( &3cf75a50  &bd3f8d2d  &babe6cc1 )
+          2    ( &3cc7f1cf  &bd57416b  &bbcc8a30 )
+          3    ( &3cf75a50  &bd3f8d3d  &bbcc8b31 )
+          4    ( &3cf75a5a  &3d490c93  &babe6956 )
+          5    ( &bcb35e31  &bd57417c  &bbcc8a37 )
+          6    ( &bcb35e31  &bd57419c  &babe68dc )
+          7    ( &3cf75a5a  &3d490c93  &bbcc8b56 )
+          8    ( &3cc7f1d9  &3d60c0d4  &babe6962 )
+          9    ( &bce2c6b1  &bd3f8d39  &bbcc8a3b )
+          10   ( &bce2c6b1  &bd3f8d59  &babe68e8 )
+          11   ( &3cc7f1d9  &3d60c0d4  &bbcc8b5a )
+          12   ( &bcb35e27  &3d60c0c5  &babe6982 )
+          13   ( &bce2c6a7  &3d490c87  &bbcc8b60 )
+          14   ( &bce2c6a7  &3d490c87  &babe697d )
+          15   ( &bcb35e27  &3d60c0c5  &bbcc8b61 )
+          16   ( &bcd29871  &bd3c3369  &bc06a11d )
+          17   ( &bcacaa67  &3d58a9d5  &bc06a2b0 )
+          18   ( &bcacaa71  &bd4f2a8c  &bc06a09b )
+          19   ( &bcd29867  &3d45b2c7  &bc06a2af )
+          20   ( &3cc13e0f  &bd4f2a8b  &bc06a097 )
+          21   ( &3ce72c4f  &bd3c336d  &bc06a118 )
+          22   ( &3ce72c59  &3d45b2c3  &bc06a2ab )
+          23   ( &3cc13e19  &3d58a9f4  &bc06a2ac )
+     }
+     Stream {
+          Format: FLOAT3
+          Tag: "_NORMAL"
+          0    ( &3ec3ed88  &bf6c81d9  &80000000 )
+          1    ( &3f6c81d9  &bec3ed88  &80000000 )
+          2    ( &3eb61d6c  &bf5bd5b8  &bebcd97a )
+          3    ( &3f5bd3b8  &beb61d6c  &bebcd97a )
+          4    ( &3f6c81d9  &3ec3ed88  &80000000 )
+          5    ( &beb61d6c  &bf5bd3b8  &bebcd97a )
+          6    ( &bec3ed88  &bf6c81d9  &80000000 )
+          7    ( &3f5bd5b8  &3eb61d6c  &bebcd57a )
+          8    ( &3ec3ed88  &3f6c81d9  &80000000 )
+          9    ( &bf5bd5b8  &beb61d6c  &bebcd97a )
+          10   ( &bf6c81d9  &bec3ed88  &80000000 )
+          11   ( &3eb61d6c  &3f5bd5b8  &bebcd57a )
+          12   ( &bec3ed88  &3f6c81d9  &80000000 )
+          13   ( &bf5bd5b8  &3eb61d6c  &bebcd57a )
+          14   ( &bf6c81d9  &3ec3ed88  &80000000 )
+          15   ( &beb61d6c  &3f5bd5b8  &bebcd57a )
+          16   ( &becf099e  &be2b8157  &bf662bcc )
+          17   ( &be2b8157  &3ecf0d9e  &bf6629cc )
+          18   ( &be2b8157  &becf099e  &bf662bcc )
+          19   ( &becf0d9e  &3e2b8157  &bf662bcc )
+          20   ( &3e2b8157  &becf099e  &bf662bcc )
+          21   ( &3ecf059e  &be2b8157  &bf662bcc )
+          22   ( &3ecf0d9e  &3e2b8157  &bf6629cc )
+          23   ( &3e2b8157  &3ecf0d9e  &bf6629cc )
+     }
+     Stream {
+          Format: FLOAT2
+          Tag: "_UV0"
+          AliasCount: 1
+          Aliases: "_TEXCOORD0" 
+          0    ( &3f29c47c  &3edbaab2 )
+          1    ( &3f277f83  &3ed753a4 )
+          2    ( &3f28c07d  &3edc181e )
+          3    ( &3f2762da  &3ed9619e )
+          4    ( &3f122e9d  &3ed75394 )
+          5    ( &3f28c081  &3ef0a9fa )
+          6    ( &3f29c484  &3ef11766 )
+          7    ( &3f124b46  &3ed9619e )
+          8    ( &3f0fe99c  &3edbaab2 )
+          9    ( &3f2762da  &3ef3607a )
+          10   ( &3f277f83  &3ef56e7c )
+          11   ( &3f10ed9b  &3edc181e )
+          12   ( &3f0fe99c  &3ef11766 )
+          13   ( &3f124b46  &3ef36082 )
+          14   ( &3f122e9d  &3ef56e84 )
+          15   ( &3f10ed9b  &3ef0a9fa )
+          16   ( &3f272c6a  &3ef2356a )
+          17   ( &3f117db2  &3ef02d5c )
+          18   ( &3f28306e  &3ef02d5c )
+          19   ( &3f1281b6  &3ef2356a )
+          20   ( &3f28306e  &3edc94bc )
+          21   ( &3f272c6a  &3eda8cae )
+          22   ( &3f1281b6  &3eda8cae )
+          23   ( &3f117db2  &3edc94bc )
+     }
+     Stream {
+          Format: FLOAT2
+          Tag: "_UV1"
+          AliasCount: 1
+          Aliases: "_TEXCOORD1" 
+          0    ( &4094b3da  &3ed9146c )
+          1    ( &4095250c  &3edb7b2c )
+          2    ( &4094a8b6  &3eda2790 )
+          3    ( &4094ef77  &3edb9980 )
+          4    ( &40952510  &3ef20950 )
+          5    ( &40929037  &3eda2788 )
+          6    ( &40928510  &3ed91464 )
+          7    ( &4094ef77  &3ef1eb00 )
+          8    ( &4094b3da  &3ef47016 )
+          9    ( &40924974  &3edb9980 )
+          10   ( &409213dd  &3edb7b2c )
+          11   ( &4094a8b6  &3ef35cfc )
+          12   ( &40928510  &3ef47018 )
+          13   ( &40924974  &3ef1eafc )
+          14   ( &409213dd  &3ef2094c )
+          15   ( &40929037  &3ef35cfc )
+          16   ( &409267ed  &3edbd31c )
+          17   ( &40929cea  &3ef2c484 )
+          18   ( &40929cea  &3edabff4 )
+          19   ( &409267ed  &3ef1b168 )
+          20   ( &40949c04  &3edabff4 )
+          21   ( &4094d100  &3edbd320 )
+          22   ( &4094d100  &3ef1b164 )
+          23   ( &40949c04  &3ef2c484 )
+     }
+     Stream {
+          Format: FLOAT4
+          Tag: "_RGBA"
+          0    ( &3e60e0e1  &3e60e0e1  &3e60e0e1  &40000000 )
+          1    ( &3e70f0f1  &3e70f0f1  &3e70f0f1  &40000000 )
+          2    ( &3f2cacad  &3f2cacad  &3f2cacad  &40000000 )
+          3    ( &3f28a8a9  &3f28a8a9  &3f28a8a9  &40000000 )
+          4    ( &3ea8a8a9  &3ea8a8a9  &3ea8a8a9  &40000000 )
+          5    ( &3f28a8a9  &3f28a8a9  &3f28a8a9  &40000000 )
+          6    ( &3e70f0f1  &3e70f0f1  &3e70f0f1  &40000000 )
+          7    ( &3f24a4a5  &3f24a4a5  &3f24a4a5  &40000000 )
+          8    ( &3e40c0c1  &3e40c0c1  &3e40c0c1  &40000000 )
+          9    ( &3f24a4a5  &3f24a4a5  &3f24a4a5  &40000000 )
+          10   ( &3eb0b0b1  &3eb0b0b1  &3eb0b0b1  &40000000 )
+          11   ( &3f2cacad  &3f2cacad  &3f2cacad  &40000000 )
+          12   ( &3ea8a8a9  &3ea8a8a9  &3ea8a8a9  &40000000 )
+          13   ( &3f28a8a9  &3f28a8a9  &3f28a8a9  &40000000 )
+          14   ( &3e50d0d1  &3e50d0d1  &3e50d0d1  &40000000 )
+          15   ( &3f28a8a9  &3f28a8a9  &3f28a8a9  &40000000 )
+          16   ( &3f6ceced  &3f6ceced  &3f6ceced  &40000000 )
+          17   ( &3f58d8d9  &3f58d8d9  &3f58d8d9  &40000000 )
+          18   ( &3f64e4e5  &3f64e4e5  &3f64e4e5  &40000000 )
+          19   ( &3f64e4e5  &3f64e4e5  &3f64e4e5  &40000000 )
+          20   ( &3f68e8e9  &3f68e8e9  &3f68e8e9  &40000000 )
+          21   ( &3f68e8e9  &3f68e8e9  &3f68e8e9  &40000000 )
+          22   ( &3f6ceced  &3f6ceced  &3f6ceced  &40000000 )
+          23   ( &3f60e0e1  &3f60e0e1  &3f60e0e1  &40000000 )
+     }
+     Triangles {
+          0    ( 0     1     2     )
+          1    ( 1     3     2     )
+          2    ( 1     4     3     )
+          3    ( 0     2     5     )
+          4    ( 6     0     5     )
+          5    ( 4     7     3     )
+          6    ( 4     8     7     )
+          7    ( 6     5     9     )
+          8    ( 10    6     9     )
+          9    ( 8     11    7     )
+          10   ( 8     12    11    )
+          11   ( 10    9     13    )
+          12   ( 14    10    13    )
+          13   ( 12    14    15    )
+          14   ( 14    13    15    )
+          15   ( 12    15    11    )
+          16   ( 13    9     16    )
+          17   ( 11    15    17    )
+          18   ( 16    9     18    )
+          19   ( 9     5     18    )
+          20   ( 15    13    19    )
+          21   ( 17    15    19    )
+          22   ( 19    13    16    )
+          23   ( 20    18    5     )
+          24   ( 16    18    20    )
+          25   ( 2     20    5     )
+          26   ( 21    16    20    )
+          27   ( 21    20    2     )
+          28   ( 19    16    21    )
+          29   ( 3     21    2     )
+          30   ( 21    3     22    )
+          31   ( 22    19    21    )
+          32   ( 3     7     22    )
+          33   ( 22    23    19    )
+          34   ( 22    7     23    )
+          35   ( 23    17    19    )
+          36   ( 7     11    23    )
+          37   ( 23    11    17    )
+     }
+}
+Part {
+     Name: "defaultpart"
+     PieceCount: 1
+     LocatorCount: 1
+     Pieces: 0 
+     Locators: 0 
+}
+Locator {
+     Name: "ml1"
+     Hookup: "flare.vehicle.orangel"
+     Index: 0
+     Position: ( &387bbc20  &bac039ff  &bca1fc64 )
+     Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}

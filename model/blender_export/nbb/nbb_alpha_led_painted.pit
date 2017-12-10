@@ -1,0 +1,317 @@
+Header {
+     FormatVersion: 1
+     Source: "ConverterPIX v1.0"
+     Type: "Trait"
+     Name: "nbb_alpha_led_painted"
+}
+Global {
+     LookCount: 1
+     VariantCount: 1
+     PartCount: 1
+     MaterialCount: 6
+}
+Look {
+     Name: "default"
+     Material {
+          Alias: "mat_0000_nbb_alpha1"
+          Effect: "eut2.lamp.add.env"
+          Flags: 0
+          AttributeCount: 6
+          TextureCount: 3
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.650000 0.650000 0.650000 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 0.200000 0.900000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 90.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 0.700000 0.700000 0.700000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/nbb/textures/nbb_alpha1"
+          }
+          Texture {
+               Tag: "texture[1]:texture_mask"
+               Value: "/model/blender_export/nbb/textures/nbb_alpha_led_mask"
+          }
+          Texture {
+               Tag: "texture[2]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0001_nbb_alpha"
+          Effect: "eut2.dif.spec.shadow"
+          Flags: 0
+          AttributeCount: 5
+          TextureCount: 2
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 30.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 0.500000 0.500000 0.500000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/nbb/textures/nbb_alpha"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0002_nbb_alpha_painted"
+          Effect: "eut2.dif.spec.add.env.shadow.paint"
+          Flags: 0
+          AttributeCount: 7
+          TextureCount: 2
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.423583 0.423583 0.423583 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shadow_bias"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 100.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/nbb/textures/nbb_alpha_painted"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0003_nbb_alpha"
+          Effect: "eut2.glass"
+          Flags: 0
+          AttributeCount: 8
+          TextureCount: 2
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 1.612451 1.612451 1.612451 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 0.200000 0.900000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 95.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 0.500000 0.500000 0.500000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "tint"
+               Value: ( 0.735357 0.735357 0.735357 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "tint_opacity"
+               Value: ( -0.010000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/nbb/textures/nbb_alpha"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0004_nbb_alpha_led"
+          Effect: "eut2.glass"
+          Flags: 0
+          AttributeCount: 8
+          TextureCount: 2
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 1.612451 1.612451 1.612451 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 0.200000 0.900000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 95.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 0.735357 0.735357 0.735357 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "tint"
+               Value: ( 0.735357 0.735357 0.735357 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "tint_opacity"
+               Value: ( 0.500000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/nbb/textures/nbb_alpha_led"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0005_nbb_alpha1"
+          Effect: "eut2.dif.spec.shadow"
+          Flags: 0
+          AttributeCount: 6
+          TextureCount: 1
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shadow_bias"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 30.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 0.500000 0.500000 0.500000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/nbb/textures/nbb_alpha1"
+          }
+     }
+}
+Variant {
+     Name: "default"
+     Part {
+          Name: "defaultpart"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+}

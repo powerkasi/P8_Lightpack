@@ -1,0 +1,202 @@
+Header {
+     FormatVersion: 1
+     Source: "ConverterPIX v1.0"
+     Type: "Trait"
+     Name: "P8_torpedo_white"
+}
+Global {
+     LookCount: 1
+     VariantCount: 1
+     PartCount: 1
+     MaterialCount: 4
+}
+Look {
+     Name: "default"
+     Material {
+          Alias: "mat_0000_color1"
+          Effect: "eut2.dif.spec"
+          Flags: 0
+          AttributeCount: 5
+          TextureCount: 1
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 0.349190 0.349190 0.349190 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/p8_torpedo/textures/color1"
+          }
+     }
+     Material {
+          Alias: "mat_0001_p8_trpd_glass"
+          Effect: "eut2.glass"
+          Flags: 0
+          AttributeCount: 7
+          TextureCount: 2
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 1.612451 1.612451 1.612451 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 95.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 0.500000 0.500000 0.500000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "tint"
+               Value: ( 0.954687 0.954687 0.954687 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "tint_opacity"
+               Value: ( -0.010000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/p8_torpedo/textures/p8_trpd_glass"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0002_p8_trpd_chrom"
+          Effect: "eut2.dif.spec.add.env.nofresnel"
+          Flags: 0
+          AttributeCount: 6
+          TextureCount: 2
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.900000 0.900000 0.900000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 60.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/p8_torpedo/textures/p8_trpd_chrom"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0003_p8_trpd_light"
+          Effect: "eut2.lamp.add.env"
+          Flags: 0
+          AttributeCount: 5
+          TextureCount: 3
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 1.353256 1.353256 1.353256 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 30.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/p8_torpedo/textures/p8_trpd_light"
+          }
+          Texture {
+               Tag: "texture[1]:texture_mask"
+               Value: "/model/blender_export/p8_torpedo/textures/p8_trpd_lightmask"
+          }
+          Texture {
+               Tag: "texture[2]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+}
+Variant {
+     Name: "default"
+     Part {
+          Name: "defaultpart"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+}

@@ -1,0 +1,107 @@
+Header {
+     FormatVersion: 1
+     Source: "ConverterPIX v1.0"
+     Type: "Trait"
+     Name: "P8_small_02"
+}
+Global {
+     LookCount: 1
+     VariantCount: 1
+     PartCount: 1
+     MaterialCount: 2
+}
+Look {
+     Name: "default"
+     Material {
+          Alias: "mat_0000_P8_lights"
+          Effect: "eut2.lamp.add.env"
+          Flags: 0
+          AttributeCount: 5
+          TextureCount: 3
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.650000 0.650000 0.650000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 30.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 0.700000 0.700000 0.700000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/hella/textures/P8_lights"
+          }
+          Texture {
+               Tag: "texture[1]:texture_mask"
+               Value: "/model/blender_export/hella/textures/lightmask_smalll"
+          }
+          Texture {
+               Tag: "texture[2]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0001_P8_lights"
+          Effect: "eut2.dif.spec"
+          Flags: 0
+          AttributeCount: 5
+          TextureCount: 1
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 4.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 0.200000 0.200000 0.200000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/hella/textures/P8_lights"
+          }
+     }
+}
+Variant {
+     Name: "default"
+     Part {
+          Name: "defaultpart"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+}

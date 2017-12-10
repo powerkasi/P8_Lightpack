@@ -1,0 +1,70 @@
+Header {
+     FormatVersion: 1
+     Source: "ConverterPIX v1.0"
+     Type: "Trait"
+     Name: "P8_mudflap"
+}
+Global {
+     LookCount: 1
+     VariantCount: 1
+     PartCount: 1
+     MaterialCount: 2
+}
+Look {
+     Name: "default"
+     Material {
+          Alias: "mat_0000"
+          Effect: "eut2.shadowonly"
+          Flags: 0
+          AttributeCount: 1
+          TextureCount: 0
+          Attribute {
+               Format: FLOAT
+               Tag: "shadow_bias"
+               Value: ( 0.000000 )
+          }
+     }
+     Material {
+          Alias: "mat_0001_mudflap"
+          Effect: "eut2.dif.spec"
+          Flags: 0
+          AttributeCount: 4
+          TextureCount: 1
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 0.665185 0.665185 0.665185 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 60.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/p8_mudflaps/textures/mudflap"
+          }
+     }
+}
+Variant {
+     Name: "default"
+     Part {
+          Name: "defaultpart"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+}

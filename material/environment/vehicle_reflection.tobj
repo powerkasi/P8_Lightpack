@@ -1,0 +1,12 @@
+map cube
+     /material/environment/generic_s.dds
+     /material/environment/generic_s.dds
+     /material/environment/generic_s.dds
+     /material/environment/generic_s.dds
+     /material/environment/generic_s.dds
+     /material/environment/generic_s.dds
+addr
+     clamp_to_edge
+     clamp_to_edge
+     clamp_to_edge
+nomips

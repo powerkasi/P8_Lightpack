@@ -1,0 +1,72 @@
+Header {
+     FormatVersion: 5
+     Source: "ConverterPIX v1.0"
+     Type: "Model"
+     Name: "jokons_red_ledb"
+}
+Global {
+     VertexCount: 4
+     TriangleCount: 2
+     MaterialCount: 1
+     PieceCount: 1
+     PartCount: 1
+     BoneCount: 0
+     LocatorCount: 0
+     Skeleton: "jokons_red_ledb.pis"
+}
+Material {
+     Alias: "mat_0000_smallb"
+     Effect: "eut2.flare"
+}
+Piece {
+     Index: 0
+     Material: 0
+     VertexCount: 4
+     TriangleCount: 2
+     StreamCount: 4
+     Stream {
+          Format: FLOAT3
+          Tag: "_POSITION"
+          0    ( &be666666  &be666666  &a2fce985 )
+          1    ( &3e666666  &be666666  &a2fce985 )
+          2    ( &be666666  &3e666666  &22fce985 )
+          3    ( &3e666666  &3e666666  &22fce985 )
+     }
+     Stream {
+          Format: FLOAT3
+          Tag: "_NORMAL"
+          0    ( &80000000  &00000000  &3f800000 )
+          1    ( &80000000  &00000000  &3f800000 )
+          2    ( &80000000  &00000000  &3f800000 )
+          3    ( &80000000  &00000000  &3f800000 )
+     }
+     Stream {
+          Format: FLOAT2
+          Tag: "_UV0"
+          AliasCount: 1
+          Aliases: "_TEXCOORD0" 
+          0    ( &00000000  &3f800000 )
+          1    ( &3f800000  &3f800000 )
+          2    ( &33926867  &00000000 )
+          3    ( &3f800000  &00000000 )
+     }
+     Stream {
+          Format: FLOAT4
+          Tag: "_RGBA"
+          0    ( &3f808081  &3f808081  &3f808081  &40000000 )
+          1    ( &3f808081  &3f808081  &3f808081  &40000000 )
+          2    ( &3f808081  &3f808081  &3f808081  &40000000 )
+          3    ( &3f808081  &3f808081  &3f808081  &40000000 )
+     }
+     Triangles {
+          0    ( 0     2     1     )
+          1    ( 2     3     1     )
+     }
+}
+Part {
+     Name: "defaultpart"
+     PieceCount: 1
+     LocatorCount: 0
+     Pieces: 0 
+     Locators: 
+}

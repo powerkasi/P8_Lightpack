@@ -1,0 +1,5 @@
+map 2d
+     /model/blender_export/highline_lightbox/textures/lightbox_highline.dds
+addr
+     clamp_to_edge
+     clamp_to_edge

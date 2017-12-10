@@ -1,0 +1,121 @@
+Header {
+     FormatVersion: 1
+     Source: "ConverterPIX v1.0"
+     Type: "Trait"
+     Name: "jokon_rearl_Re2"
+}
+Global {
+     LookCount: 1
+     VariantCount: 1
+     PartCount: 1
+     MaterialCount: 2
+}
+Look {
+     Name: "default"
+     Material {
+          Alias: "mat_0000_jokon_chrome"
+          Effect: "eut2.dif.spec.weight.add.env"
+          Flags: 0
+          AttributeCount: 6
+          TextureCount: 2
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( -0.250000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 0.500000 0.500000 0.500000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.990000 0.990000 0.990000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 70.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/jokons/textures/jokon_chrome"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0001_jokon"
+          Effect: "eut2.lamp.add.env"
+          Flags: 0
+          AttributeCount: 6
+          TextureCount: 3
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 0.200000 0.900000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 90.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 0.700000 0.700000 0.700000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/jokons/textures/jokon"
+          }
+          Texture {
+               Tag: "texture[1]:texture_mask"
+               Value: "/model/blender_export/jokons/textures/jokon_lightmask"
+          }
+          Texture {
+               Tag: "texture[2]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+}
+Variant {
+     Name: "default"
+     Part {
+          Name: "defaultpart"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+}

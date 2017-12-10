@@ -1,0 +1,5 @@
+map 2d
+     /vehicle/truck/upgrade/smalllight/textures/lightmask.dds
+addr
+     repeat
+     repeat

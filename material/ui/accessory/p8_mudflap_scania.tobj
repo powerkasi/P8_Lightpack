@@ -1,0 +1,6 @@
+map 2d
+     /material/ui/accessory/p8_mudflap_scania.dds
+addr
+     clamp_to_edge
+     clamp_to_edge
+usage ui

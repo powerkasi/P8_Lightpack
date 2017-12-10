@@ -1,0 +1,6 @@
+map 2d
+     /model/blender_export/lollipop/textures/P8_lightmask_lollipop_white.dds
+addr
+     clamp_to_edge
+     clamp_to_edge
+nocompress

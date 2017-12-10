@@ -1,0 +1,5 @@
+map 2d
+     /model/blender_export/scania_stock/textures/lamps_mask.dds
+addr
+     clamp_to_edge
+     clamp_to_edge
