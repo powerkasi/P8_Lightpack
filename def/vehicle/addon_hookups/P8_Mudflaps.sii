@@ -1,0 +1,9 @@
+accessory_hookup_data : p8mudf1.addon_hookup
+{
+	name: "P8 Customs: Scania mudflap"
+	price: 1000
+	icon: "p8_mudflap_scania"
+	model: "/model/blender_export/p8_mudflaps/P8_mudflap.pmd"
+	suitable_for[]: "b_grill"
+	unlock: 1
+}

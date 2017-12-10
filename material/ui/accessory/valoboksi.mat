@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "valoboksi.tobj"
+	texture_name : "texture"
+}

@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "p8_mudflap_scania.tobj"
+	texture_name : "texture"
+}

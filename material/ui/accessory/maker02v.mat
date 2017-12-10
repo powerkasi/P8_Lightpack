@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "maker02v.tobj"
+	texture_name : "texture"
+}

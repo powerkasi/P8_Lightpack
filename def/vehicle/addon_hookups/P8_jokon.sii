@@ -1,0 +1,70 @@
+accessory_hookup_data : jorearll.addon_hookup
+{
+	name: "Jokon Led: Tail/Brake/Blinker Left"
+	price: 100
+	icon: "jokon"
+	model: "/model/blender_export/jokons/jokon_rearl_L.pmd"
+	suitable_for[]: "backlt"
+	suitable_for[]: "backlights"
+	suitable_for[]: "airhose"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+	unlock: 10
+}
+accessory_hookup_data : jorearlr.addon_hookup
+{
+	name: "Jokon Led: Tail/Brake/Blinker Right"
+	price: 100
+	icon: "jokon"
+	model: "/model/blender_export/jokons/jokon_rearl_R.pmd"
+	suitable_for[]: "backlt"
+	suitable_for[]: "backlights"
+	suitable_for[]: "airhose"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+	unlock: 10
+}
+accessory_hookup_data : jorearlrr.addon_hookup
+{
+	name: "Jokon Led: Tail/Brake"
+	price: 100
+	icon: "jokon"
+	model: "/model/blender_export/jokons/jokon_rearl_Br.pmd"
+	suitable_for[]: "backlt"
+	suitable_for[]: "backlights"
+	suitable_for[]: "airhose"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+	unlock: 10
+}
+accessory_hookup_data : jorearlre.addon_hookup
+{
+	name: "Jokon Led: Tail/Brake/Reverse"
+	price: 100
+	icon: "jokon"
+	model: "/model/blender_export/jokons/jokon_rearl_Re.pmd"
+	suitable_for[]: "backlt"
+	suitable_for[]: "backlights"
+	suitable_for[]: "airhose"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+	unlock: 10
+}
+accessory_hookup_data : jorearlre2.addon_hookup
+{
+	name: "Jokon Led: Only Reverse"
+	price: 100
+	icon: "jokon"
+	model: "/model/blender_export/jokons/jokon_rearl_Re2.pmd"
+	suitable_for[]: "backlt"
+	suitable_for[]: "backlights"
+	suitable_for[]: "airhose"
+	suitable_for[]: "storage"
+	unlock: 10
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+}

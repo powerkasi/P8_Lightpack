@@ -1,0 +1,27 @@
+accessory_horn_hookup_data : p8horn.addon_hookup
+{
+	name: "P8 Customs: Big Horn"
+	icon: "horn1"
+	model: "/model/blender_export/p8_horns/horn2_p8.pmd"
+	price: 480
+	suitable_for[]: "r_grill"
+	suitable_for[]: "slots"
+	unlock: 10
+
+	interior_sound_data: .horn2_l_int
+	exterior_sound_data: .horn2_l_ext
+}
+
+sound_data : .horn2_l_int
+{
+	name: "/sound/truck/noises/horns/int_air_horn_8.ogg"
+	looped: true
+	volume: 1.0
+}
+
+sound_data : .horn2_l_ext
+{
+	name: "/sound/truck/noises/horns/ext_air_horn_8.ogg"
+	looped: true
+	volume: 1.0
+}

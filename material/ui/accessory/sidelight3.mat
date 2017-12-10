@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "sidelight3.tobj"
+	texture_name : "texture"
+}

@@ -1,0 +1,609 @@
+accessory_hookup_data : P8_bore_01.addon_hookup
+{
+	name: "White Boreman Marker Light"
+	price: 15
+	icon: "bore01"
+	model: "/model/blender_export/p8_boreman_led/P8_boreman_01.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "mask"
+	suitable_for[]: "mirrorslots"
+	unlock: 0
+}
+accessory_hookup_data : P8_bore_01v.addon_hookup
+{
+	name: "White Boreman Marker Light (vertical)"
+	price: 15
+	icon: "bore01v"
+	model: "/model/blender_export/p8_boreman_led/P8_boreman_01_v.pmd"
+	suitable_for[]: "mirrorslots"
+	unlock: 0
+}
+accessory_hookup_data : P8_bore_02.addon_hookup
+{
+	name: "Orange Boreman Marker Light"
+	price: 15
+	icon: "bore02"
+	model: "/model/blender_export/p8_boreman_led/P8_boreman_02.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "backlights"
+	suitable_for[]: "mask"
+	suitable_for[]: "mirrorslots"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+	unlock: 0
+}
+accessory_hookup_data : P8_bore_02v.addon_hookup
+{
+	name: "Orange Boreman Marker Light (vertical)"
+	price: 15
+	icon: "bore02v"
+	model: "/model/blender_export/p8_boreman_led/P8_boreman_02_v.pmd"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "backlights"
+	suitable_for[]: "mirrorslots"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+	unlock: 0
+}
+accessory_hookup_data : P8_bore_03.addon_hookup
+{
+	name: "Red Boreman Marker Light"
+	price: 15
+	icon: "bore03"
+	model: "/model/blender_export/p8_boreman_led/P8_boreman_03.pmd"
+	suitable_for[]: "backlights"
+	suitable_for[]: "backlt"
+	suitable_for[]: "backled"
+	suitable_for[]: "airhose"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+	unlock: 0
+}
+accessory_hookup_data : P8_bore_03v.addon_hookup
+{
+	name: "Red Boreman Marker Light (vertical)"
+	price: 15
+	icon: "bore03v"
+	model: "/model/blender_export/p8_boreman_led/P8_boreman_03v.pmd"
+	suitable_for[]: "backlights"
+	suitable_for[]: "backlt"
+	suitable_for[]: "backled"
+	suitable_for[]: "airhose"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+	suitable_for[]: "r_spoiler"
+	unlock: 0
+}
+
+accessory_hookup_data : P8_small_01.addon_hookup
+{
+	name: "White Hella Marker Light"
+	price: 25
+	icon: "maker01"
+	model: "/model/blender_export/hella/P8_small_01.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "mask"
+	suitable_for[]: "mirrorslots"
+	unlock: 0
+}
+
+accessory_hookup_data : P8_small_01p.addon_hookup
+{
+	name: "White Hella Marker Light (vertical)"
+	price: 25
+	icon: "maker01v"
+	model: "/model/blender_export/hella/P8_small_01p.pmd"
+	suitable_for[]: "mirrorslots"
+	unlock: 0
+}
+
+accessory_hookup_data : P8_small_02.addon_hookup
+{
+	name: "Orange Hella Marker Light"
+	price: 25
+	icon: "maker02"
+	model: "/model/blender_export/hella/P8_small_02.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "backlights"
+	suitable_for[]: "mask"
+	suitable_for[]: "mirrorslots"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+	unlock: 0
+}
+
+accessory_hookup_data : P8_small_02p.addon_hookup
+{
+	name: "Orange Hella Marker Light (vertical)"
+	price: 25
+	icon: "maker02v"
+	model: "/model/blender_export/hella/P8_small_02p.pmd"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "backlights"
+	suitable_for[]: "mirrorslots"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+	unlock: 0
+}
+
+accessory_hookup_data : P8_small_03.addon_hookup
+{
+	name: "Red Hella Marker Light"
+	price: 25
+	icon: "maker03"
+	model: "/model/blender_export/hella/P8_small_03.pmd"
+	suitable_for[]: "backlights"
+	suitable_for[]: "backlt"
+	suitable_for[]: "backled"
+	suitable_for[]: "airhose"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+	unlock: 0
+}
+
+accessory_hookup_data : P8_small_03p.addon_hookup
+{
+	name: "Red Hella Marker Light (vertical)"
+	price: 25
+	icon: "maker03v"
+	model: "/model/blender_export/hella/P8_small_03p.pmd"
+	suitable_for[]: "backlights"
+	suitable_for[]: "backlt"
+	suitable_for[]: "backled"
+	suitable_for[]: "airhose"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_bumper02"
+	suitable_for[]: "r_spoiler"
+	unlock: 0
+}
+
+accessory_hookup_data : P8_small_04.addon_hookup
+{
+	name: "Scania Stock Sidelight"
+	price: 30
+	icon: "maker4"
+	model: "/model/blender_export/scania_stock/P8_small_04.pmd"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "backlights"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	unlock: 0
+}
+
+accessory_hookup_data : P8_small_04p.addon_hookup
+{
+	name: "Scania Stock Sidelight (vertical)"
+	price: 30
+	icon: "maker4p"
+	model: "/model/blender_export/scania_stock/P8_small_04p.pmd"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "backlights"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	unlock: 0
+}
+
+
+accessory_hookup_data : rjlssl1.addon_hookup
+{
+	name: "RJL's Sidelight 1"
+	price: 110
+	icon: "sidelight1"
+	model: "/vehicle/truck/upgrade/smalllight/sidelight1.pmd"
+	suitable_for[]: "b_grill"
+	unlock: 0
+}
+
+accessory_hookup_data : rjlssl2.addon_hookup
+{
+	name: "RJL's Sidelight 2"
+	price: 110
+	icon: "sidelight2"
+	model: "/vehicle/truck/upgrade/smalllight/sidelight2.pmd"
+	suitable_for[]: "b_grill"
+	unlock: 0
+}
+
+accessory_hookup_data : rjlssl3.addon_hookup
+{
+	name: "RJL's Sidelight 3"
+	price: 110
+	icon: "sidelight3"
+	model: "/vehicle/truck/upgrade/smalllight/sidelight3.pmd"
+	suitable_for[]: "b_grill"
+	unlock: 0
+}
+accessory_hookup_data : nbb.addon_hookup
+{
+	name: "NBB Alpha 225"
+	price: 780
+	icon: "nbb"
+	model: "/model/blender_export/nbb/nbb_alpha.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "f_grill"
+	unlock: 1
+}
+accessory_hookup_data : nbbled.addon_hookup
+{
+	name: "NBB Alpha 225 (with leds)"
+	price: 780
+	icon: "nbb"
+	model: "/model/blender_export/nbb/nbb_alpha_led.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "f_grill"
+	unlock: 1
+}
+accessory_hookup_data : nbbp.addon_hookup
+{
+	name: "NBB Alpha 225 Painted"
+	price: 790
+	icon: "nbb"
+	model: "/model/blender_export/nbb/nbb_alpha_painted.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "f_grill"
+	unlock: 1
+}
+accessory_hookup_data : nbbledp.addon_hookup
+{
+	name: "NBB Alpha 225 Painted (with leds)"
+	price: 790
+	icon: "nbb"
+	model: "/model/blender_export/nbb/nbb_alpha_led_painted.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "f_grill"
+	unlock: 1
+}
+accessory_hookup_data : sarvivalo1l.addon_hookup
+{
+	name: "RJL's Sidelight 1 Long (left)"
+	price: 120
+	icon: "sidelight1"
+	model: "/model/blender_export/sarvivalot/sarvivalo1l.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "backlights"
+	suitable_for[]: "ffenders"
+	suitable_for[]: "r_bumper"
+	unlock: 0
+}
+accessory_hookup_data : sarvivalo1r.addon_hookup
+{
+	name: "RJL's Sidelight 1 Long (right)"
+	price: 120
+	icon: "sidelight1"
+	model: "/model/blender_export/sarvivalot/sarvivalo1r.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "backlights"
+	suitable_for[]: "ffenders"
+	suitable_for[]: "r_bumper"
+	unlock: 0
+}
+accessory_hookup_data : sarvivalo2l.addon_hookup
+{
+	name: "RJL's Sidelight 2 Long (left)"
+	price: 120
+	icon: "sidelight2"
+	model: "/model/blender_export/sarvivalot/sarvivalo2l.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "backlights"
+	suitable_for[]: "ffenders"
+	suitable_for[]: "r_bumper"
+	unlock: 0
+}
+accessory_hookup_data : sarvivalo2r.addon_hookup
+{
+	name: "RJL's Sidelight 2 Long (right)"
+	price: 120
+	icon: "sidelight2"
+	model: "/model/blender_export/sarvivalot/sarvivalo2r.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "backlights"
+	suitable_for[]: "ffenders"
+	suitable_for[]: "r_bumper"
+	unlock: 0
+}
+accessory_hookup_data : sarvivalo3l.addon_hookup
+{
+	name: "RJL's Sidelight 3 Long (left)"
+	price: 120
+	icon: "sidelight3"
+	model: "/model/blender_export/sarvivalot/sarvivalo3l.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "backlights"
+	suitable_for[]: "ffenders"
+	suitable_for[]: "r_bumper"
+	unlock: 0
+}
+accessory_hookup_data : sarvivalo3r.addon_hookup
+{
+	name: "RJL's Sidelight 3 Long (right)"
+	price: 120
+	icon: "sidelight3"
+	model: "/model/blender_export/sarvivalot/sarvivalo3r.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "backlights"
+	suitable_for[]: "ffenders"
+	suitable_for[]: "r_bumper"
+	unlock: 0
+}
+accessory_hookup_data : torpedo01.addon_hookup
+{
+	name: "P8 Torpedo Amber"
+	price: 140
+	icon: "torpedo1"
+	model: "/model/blender_export/p8_torpedo/P8_torpedo_amber.pmd"
+	suitable_for[]: "backlt"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_spoiler"
+	unlock: 0
+}
+accessory_hookup_data : torpedo02.addon_hookup
+{
+	name: "P8 Torpedo White"
+	price: 140
+	icon: "torpedo2"
+	model: "/model/blender_export/p8_torpedo/P8_torpedo_white.pmd"
+	suitable_for[]: "backlt"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_spoiler"
+	unlock: 0
+}
+accessory_hookup_data : 50khlboxp8.addon_hookup
+{
+	name: "Semi-Big Highline Lightbox"
+	price: 6000
+	icon: "valoboksi"
+	model: "/model/blender_export/highline_lightbox/50k_lbox_highline.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "f_grill"
+	unlock: 1
+}
+accessory_hookup_data : 50kfogp8.addon_hookup
+{
+	name: "50k customs: Fog light with flare by P8"
+	price: 500
+	icon: "50k_fog2"
+	model: "/model/blender_export/p8_50k_foglight/P8_50k_foglight.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	unlock: 10
+}
+accessory_hookup_data : lollipop2.addon_hookup
+{
+	name: "50k customs: Left Hella Lollipop 2 by P8"
+	price: 121
+	icon: "lollipop_o"
+	model: "/model/blender_export/lollipop/50k_lolipop_light2_p8_l.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "mirrorslots"
+	unlock: 10
+}
+accessory_hookup_data : lollipop2r.addon_hookup
+{
+	name: "50k customs: Right Hella Lollipop 2 by P8"
+	price: 121
+	icon: "lollipop_o"
+	model: "/model/blender_export/lollipop/50k_lolipop_light2_p8_r.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "mirrorslots"
+	unlock: 10
+}
+accessory_hookup_data : lollipop3.addon_hookup
+{
+	name: "50k customs: Left Hella Lollipop 3 by P8"
+	price: 122
+	icon: "lollipop_w"
+	model: "/model/blender_export/lollipop/50k_lolipop_light3_p8_l.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "mirrorslots"
+	unlock: 10
+}
+accessory_hookup_data : lollipop3r.addon_hookup
+{
+	name: "50k customs: Right Hella Lollipop 3 by P8"
+	price: 122
+	icon: "lollipop_w"
+	model: "/model/blender_export/lollipop/50k_lolipop_light3_p8_r.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "mirrorslots"
+	unlock: 10
+}
+accessory_hookup_data : ssl1v.addon_hookup
+{
+	name: "Short Sidelight 1 (vertical)"
+	price: 110
+	icon: "sidelight1"
+	model: "/model/blender_export/sarvivalo_lyhyt/sarvivalo_lyvyt1l.pmd"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "backlights"
+	suitable_for[]: "ffenders"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "r_spoiler"
+	suitable_for[]: "r_fender"
+	unlock: 0
+}
+accessory_hookup_data : ssl1.addon_hookup
+{
+	name: "Short Sidelight 1"
+	price: 110
+	icon: "sidelight1"
+	model: "/model/blender_export/sarvivalo_lyhyt/sarvivalo_lyvyt1l_v.pmd"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "backlights"
+	suitable_for[]: "ffenders"
+	suitable_for[]: "storage"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "r_fender"
+	unlock: 0
+}
+
+accessory_hookup_data : ssl2.addon_hookup
+{
+	name: "Short Sidelight 2 (vertical)"
+	price: 110
+	icon: "sidelight2"
+	model: "/model/blender_export/sarvivalo_lyhyt/sarvivalo_lyvyt2l.pmd"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "backlights"
+	suitable_for[]: "ffenders"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "r_spoiler"
+	suitable_for[]: "r_fender"
+	unlock: 0
+}
+accessory_hookup_data : ssl2v.addon_hookup
+{
+	name: "Short Sidelight 2"
+	price: 110
+	icon: "sidelight2"
+	model: "/model/blender_export/sarvivalo_lyhyt/sarvivalo_lyvyt2l_v.pmd"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "backlights"
+	suitable_for[]: "ffenders"
+	suitable_for[]: "storage"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "r_fender"
+	unlock: 0
+}
+
+accessory_hookup_data : sl3.addon_hookup
+{
+	name: "Short Sidelight 3"
+	price: 110
+	icon: "sidelight3"
+	model: "/model/blender_export/sarvivalo_lyhyt/sarvivalo_lyvyt3l.pmd"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "backlights"
+	suitable_for[]: "ffenders"
+	suitable_for[]: "storage"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_fender"
+	unlock: 0
+}
+
+accessory_hookup_data : sl3v.addon_hookup
+{
+	name: "Short Sidelight 3 (vertical)"
+	price: 110
+	icon: "sidelight3"
+	model: "/model/blender_export/sarvivalo_lyhyt/sarvivalo_lyvyt3l_v.pmd"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "backlights"
+	suitable_for[]: "ffenders"
+	suitable_for[]: "storage"
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "r_spoiler"
+	suitable_for[]: "r_fender"
+	unlock: 0
+}

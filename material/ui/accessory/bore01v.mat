@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "bore01v.tobj"
+	texture_name : "texture"
+}
