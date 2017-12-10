@@ -2,8 +2,8 @@
 
 P8 Light &amp; Accessory Pack for ETS2
 
-version: 1.3
-Currently supported game version: 1.25
+version: 1.3<br/>
+Currently supported game version: 1.30
 
 This pack contains several mods and reworks what I have made. It's recommended to use RJL's Scania and P8 Scania Mod with this lightpack.
 
