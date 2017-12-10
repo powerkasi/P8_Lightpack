@@ -9,7 +9,7 @@ This pack contains several mods and reworks what I have made. It's recommended t
 
 You can share this on other sites but KEEP ORIGINAL DOWNLOAD LINK AND CREDITS! NO NOT REUPLOAD TO OTHER FILE SHARING SITES.
 
-Changelog
+<b>Changelog</b>
 
 From 1.2 to 1.3
 
@@ -31,14 +31,13 @@ From 1.1.2 to 1.1.3
 - New version of torpedos added.
 
 
-Credits:
-- Sidelights: RJL, 50k, powerkasi
+<b>Credits:</b>
+- Sidelights: RJL, 50keda, powerkasi 
 - Hella Marker Lights: powerkasi
 - Boreman Marker Lights: powerkasi
-- Highline Lightbox: 50k, powerkasi
+- Highline Lightbox: 50keda, powerkasi (resized for the roof grill)
 - NBB Lights: powerkasi
 - Jokons: Mattias P, powerkasi
-- Lollipops/Foglights: 50k, powerkasi
+- Lollipops/Foglights: 50keda, powerkasi (tweaked flares)
 - Horns: powerkasi
-
 - +SCS
