@@ -11,6 +11,11 @@ You can share this on other sites but KEEP ORIGINAL DOWNLOAD LINK AND CREDITS! N
 
 <b>Changelog</b>
 
+
+From 1.3 to 1.3.1
+
+- Unused file "P8_Horns.sii" removed
+
 From 1.2 to 1.3
 
 - Updated for 1.30
